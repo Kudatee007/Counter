@@ -10,8 +10,10 @@ btn[0].addEventListener('click', () => {
     count[0].textContent = score;
      if (score < 0) {
        containerDiv.style.backgroundColor = 'peachpuff'
-     }else{
+       count[0].style.color = 'red'
+     }else if (score == 0){
         containerDiv.style.backgroundColor = 'lavender'
+        count[0].style.color = 'yellow'
      }
 })
 
@@ -20,6 +22,7 @@ btn[1].addEventListener('click', () => {
     count[0].textContent = score;
     if (score == 0) {
         containerDiv.style.backgroundColor = 'lavender'
+        count[0].style.color = 'yellow'
     }
 })
 
@@ -28,8 +31,10 @@ btn[2].addEventListener('click', () => {
     count[0].textContent = score;
     if (score > 0){
         containerDiv.style.backgroundColor = 'cyan'
-    }else{
+        count[0].style.color = 'green'
+    }else if (score == 0){
         containerDiv.style.backgroundColor = 'lavender'
+        count[0].style.color = 'yellow'
      }
 })
 
