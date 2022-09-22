@@ -1,0 +1,24 @@
+#containerDiv{
+    text-align: center;
+    padding: 8%;
+    width: 30%;
+   
+    margin: 0 auto;
+    border: 2px solid rgb(60, 56, 56);
+    border-radius: 100px;
+    box-shadow: 20px 20px rgb(98, 88, 88);
+}
+h1{
+    font-size: 70px;
+}
+.bt1{
+    height: 30px;
+    border-radius: 10px;
+}
+.bt2{
+    height: 40px;
+    border-radius: 5px;
+}
+.counts{
+    font-size: 100px;
+}
